@@ -1,0 +1,36 @@
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+		
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABL
+ET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+
+}
+
+/*=============================================
+TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+		
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+	
+@media (max-width:767px){
+
+
+}

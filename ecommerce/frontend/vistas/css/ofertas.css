@@ -1,0 +1,45 @@
+/*=============================================
+OFERTAS
+=============================================*/
+.ofertas{
+	
+	position: relative;
+	background: linear-gradient(#e20000,#e20000,#e5e5e5,silver,white);
+	padding:0;
+	border-radius:5px;
+	margin-bottom:40px;
+}
+
+.ofertas h3{
+	padding-top:20px;
+	color:white;
+	text-shadow:0px 0px 10px #424242;
+}
+
+.ofertas figure{
+	position: relative;
+}
+
+.ofertas h1{
+	color:white;
+	margin-top:-30px;
+	font-size: 60px;
+	text-shadow:0px 0px 10px black;
+}
+
+.ofertas .countdown{
+	margin-bottom:5px;
+}
+
+.btniroferta{
+/*
+border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 2px solid #e20000;
+*/
+background-color:#e20000;	
+color:white;
+
+box-shadow: 2px 2px 2px black;	
+}

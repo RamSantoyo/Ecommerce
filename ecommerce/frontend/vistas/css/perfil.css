@@ -1,0 +1,60 @@
+/*=============================================
+PERFIL
+=============================================*/
+#perfil figure#imgPerfil img{
+
+	width:90%;
+	margin:10px 0;
+	border-radius:150px;
+}
+
+#perfil #subirImagen{
+	display:none;
+	margin:20px 0px;
+	border:2px dotted #ccc;
+	overflow: hidden;
+	padding:40px;
+	cursor:pointer;
+}
+
+#perfil #subirImagen img{
+	width:100%;
+	padding:10px;
+}
+
+#perfil #subirImagen #datosImagen{
+	height:65px;
+}
+
+#perfil input{
+
+  border-radius: 5px;
+  background-color:#F3FFEF;
+  border: none;
+  padding:20px;
+}
+
+.input-group-addon{
+background-color: white;
+border-color: white;
+}
+
+.estilobtn {
+
+/*background:#007CFF;*/
+background:#0070FF;
+color: white;	
+}
+
+.colorstar{
+	color:#008BFF;
+}
+
+.radiobtnCalificar input{
+appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+
+
+

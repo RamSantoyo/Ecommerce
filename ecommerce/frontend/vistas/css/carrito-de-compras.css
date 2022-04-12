@@ -1,0 +1,106 @@
+/*=============================================
+CARRITO DE COMPRAS
+=============================================*/
+.cabeceraCarrito{
+	height:40px;
+}
+
+.cabeceraCarrito h3{
+	margin-top:-5px
+}
+
+.cabeceraCheckout{
+	height:66px;
+}
+
+/*=============================================
+CHECKOUT
+=============================================*/
+
+.contenidoCheckout, .contenidoCheckout .row{
+	padding:0px 20px;
+}
+
+.formEnvio{
+display:none;
+}
+
+.tache{
+border-radius: 100px 100px 100px 100px;
+-moz-border-radius: 100px 100px 100px 100px;
+-webkit-border-radius: 100px 100px 100px 100px;
+border: 1px solid #FFCD00;
+}
+
+.pagobtn{
+background:#FFCD00;
+color: black;
+/*border: 2px solid #FFCD00;*/  	
+}
+
+.textoelimina{
+font-size: 80%;	
+}
+
+.modalTitulo h2{
+	text-align:center;
+	margin-top:-5px;
+	padding:15px 0px;
+	border-radius:5px 5px 0px 0px;
+	color:white;
+	background:#F9C902;
+}
+
+.radiobtn{
+background-position: 0 -42px; width: 24px; height: 24px;
+display: none;
+}
+
+
+.divisacambio{
+	width: 150px;
+}
+
+.pay{
+
+background: ;
+
+}
+
+.mer{
+
+background: ;
+		
+}
+
+button.mercadopago-button {
+  
+background: #38BD23;
+width:200px;
+height: 50px;
+font-size:20px;
+margin:auto;
+display: none;
+
+}
+
+
+.btnPagar{
+
+	background: #38BD23;
+	width:200px;
+	height: 50px;
+	margin:auto;
+}
+
+
+.btnmercado{
+
+	background: #00A7DD;
+	color: white;
+	width:200px;
+	height: 45px;
+	border:none;
+
+}
+

@@ -1,0 +1,479 @@
+/*=============================================
+TOP
+=============================================*/
+
+#top ul{
+	padding-top:8px;
+}
+
+#top ul li{
+	display:inline;
+	line-height:30px;
+	margin:0px 5px;
+	color:black;
+}
+
+.social ul li a i{
+	font-size:18px;
+	margin:0 1px;
+}
+
+.registro ul{
+	text-align: right;
+	font-size:14px;	
+}
+
+/*=============================================
+ BOTON CATEGORIAS
+=============================================*/
+
+header #btnCategorias{
+	margin:20px 0;
+	border-top-right-radius:0;
+	border-bottom-right-radius:0;
+}
+
+header #btnCategorias p{
+	line-height:40px;
+	margin-bottom:0px;
+}
+
+
+header #btnCategorias p span{
+	cursor: pointer;
+}
+/*=============================================
+BUSCAR
+=============================================*/
+header #buscador{
+	margin:20px 0;
+}
+
+header #buscador input{
+	padding:19px;
+	border-radius:0;
+}
+
+header #buscador button{
+	padding:9px;
+	border:1px solid silver;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+}
+/*=============================================
+CARRITO
+=============================================*/
+
+header #carrito{
+	margin:20px 0;
+}
+
+
+header #carrito button{
+	padding:9px 15px;
+	border:0px solid silver;
+	border-top-right-radius:0;
+	border-bottom-right-radius:0;
+}
+
+header #carrito p{
+	padding:2px;
+	padding-left:60px;
+	border:1px;
+	font-size:12px;
+}
+
+.cesta{
+	color:#ffcd00;
+}
+
+.oferton{
+	color:#FF0051;
+}
+
+.texto-encima{
+color:red;
+position: absolute;
+}
+
+.textomobil{
+color:red;	
+}
+/*=============================================
+CATEGORIAS
+=============================================*/
+
+header #categorias{
+	display:none;
+	margin-top:-10px;
+	position: relative;
+	padding-bottom:20px;
+}
+
+header #categorias h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+}
+
+header #categorias hr{
+	border:1px solid rgba(255,255,255,.3);
+}
+
+
+/*=============================================
+VENTANAS MODALES
+=============================================*/
+
+.modalTitulo{
+	padding:5px 0px;
+}
+
+.modalTitulo h3{
+	text-align:center;
+	margin-top:-5px;
+	padding:15px 0px;
+	border-radius:5px 5px 0px 0px;
+	color:black;
+}
+
+.modalFormulario .close{
+	position:absolute;
+	right:27px;
+	top:15px;
+	color:black;
+}
+
+.ventanasmodal{
+	background: #FFCD00;
+	opacity: .7;
+	/*border-bottom: 2px solid #FFCD00;*/	
+	}
+
+/*=============================================
+REGISTRO CON REDES
+=============================================*/
+
+.modalFormulario .facebook, .modalFormulario .google{
+	cursor:pointer;
+}
+
+.modalFormulario .facebook p{
+background: #3b5998;
+line-height:20px;
+font-size:15px;
+border: 4px solid #3b5998;
+
+}
+
+.modalFormulario .google p{
+background: #F5F5F5;
+line-height:20px;
+font-size:14px;
+border: 4px solid #F5F5F5;
+}
+
+.modalFormulario .facebook p, .modalFormulario .google p{
+	text-align:center;
+	line-height:20px;
+	padding:2px;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+.modalFormulario .google p{
+	color:black;
+}
+
+.modalFormulario .facebook p{
+	color:white;
+}
+
+.modalFormulario p i{
+	margin-left: -5px;
+	margin-right:5px;
+	font-size:18px;
+}
+/*=============================================
+ESTILO DE FORMULARIO
+=============================================*/
+
+.modalFormulario form{
+	padding:20px;
+}
+
+.modalFormulario form input[type="text"], .modalFormulario form input[type="email"], .modalFormulario form input[type="password"]{
+  
+  border:0; 
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:black;
+}
+
+.modalFormulario form span{
+	border:0;
+	background:transparent;
+
+}
+/*=============================================
+FONDO DEL FORMULARIO
+opacity: .8;	
+background-color: #FFF5EE;
+=============================================*/
+
+#contenedor {
+background-color: white;
+}
+
+/*=============================================
+BOTONES DE INGRESO DE SESION MODALES
+=============================================*/
+
+.modalFormulario form #Envio{
+  padding:20px;
+  opacity: .7;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #0070FF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 12px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.modalFormulario form .checkBox{
+	margin-top:10px;
+	padding:20px;
+}
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logotipo img{
+		padding:20px 60px;
+		padding-left:0px;
+	}
+
+	header #carrito{
+		padding-left:100px;
+	}
+
+
+	.textomobil{
+		display: none;	
+	}
+
+	.btnoferton{
+
+		margin-left:-30px;
+		width:10; 
+	} 
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logotipo img{
+		padding:25px 60px;
+		padding-left:0px;
+	}
+
+	header #carrito{
+		padding-left:70px;
+	}
+
+	.social #img2{
+
+		display:none;
+	}
+
+	.social #separador{
+
+		display:none;
+	}
+
+
+	.registro ul{
+	margin-right:-40px;
+	}
+
+
+	.textomobil{
+		display: none;	
+	}
+
+	.btnoferton{
+
+		margin-left:-60px;
+		width:10; 
+	}
+
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÃ‘O O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logotipo img{
+		padding:30px 0px;
+	}
+
+	header #carrito{
+		padding-left:55px;
+	}
+
+	header #carrito p{
+		display:none;
+	}
+
+	.social #img1{
+
+		display:none;
+	}
+
+	.social #separador{
+
+		display:none;
+	}
+
+	.texto-encima{
+	display:none;	
+	}
+
+
+	.registro ul{
+	margin-right:-25px;
+	}
+
+	.textomobil{
+		display: none;	
+	}
+
+	.btnoferton{
+
+		margin-left:-60px;
+		width:10; 
+	}
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+	/*=============================================
+	TOP
+	=============================================*/
+
+	#top ul{
+		text-align: center;
+	}
+
+	#top #registro{
+		border-top:1px solid #222;
+	}
+	
+	.social #img2{
+
+		display:none;
+	}
+
+	.social #separador{
+
+		display:none;
+	}
+
+	.imagen{
+
+		width: 14%;
+		
+	}
+
+	.nombre{
+
+		font-size: 95%;
+	}
+
+	.oferton{
+		margin-left: 60px; margin-right:5px;
+		white-space: pre-line;
+	}
+
+	.texto-encima{
+		display: none;
+	}
+
+	.btnoferton{
+
+		margin-left:-60px;
+		width:10; 
+	}
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logotipo img{
+		padding:30px;
+		padding-bottom:10px;
+	}
+
+	header #categorias{
+		margin-bottom:10px;
+	}
+
+	header #buscador{
+		margin-bottom:10px;
+	}
+
+	header #carrito{
+		margin:0px;
+	}
+
+	.modalFormulario .google p{
+		margin-top:-15px;
+		text-align: center;
+	}
+
+	.modalFormulario .facebook p{
+		text-align: center;
+
+	}
+
+	.modalFormulario .google img{
+		width: 5%;
+	}
+	
+	
+}

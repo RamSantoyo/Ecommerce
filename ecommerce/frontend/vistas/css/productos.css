@@ -1,0 +1,256 @@
+/*=============================================
+BANNER
+=============================================*/
+
+.banner{
+	position: relative;
+	overflow:hidden;
+
+}
+
+.banner .textoBanner{
+	position:absolute;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.banner .textoDer{
+	top:50px; 
+	right:50px; 
+	text-align:right;
+}
+
+.banner .textoIzq{
+	top:50px; 
+	left:50px; 
+	text-align:left;
+}
+
+.banner .textoCentro{
+	top:50px; 
+	left:50%;
+	width:800px; 
+	margin-left: -400px;
+	text-align:center;
+}
+
+.textoBanner h1{
+	font-size:35px;
+	line-height:25px;
+}
+
+.textoBanner h2{
+	font-size:30px;
+	line-height:25px;
+}
+
+.textoBanner h3{
+	font-size:24px;
+	line-height:25px;
+}
+
+.corazon i{
+  	color:red;
+}
+
+.cesta i{
+  	color:blue;
+}
+
+/*=============================================
+BARRA PRODUCTOS
+=============================================*/
+
+.barraProductos .organizarProductos span{
+	margin-left:5px;
+}
+/*=============================================
+VITRINA PRODUCTOS CUADRÍCULA
+=============================================*/
+
+.tituloDestacado h1{
+	margin-top:-5px;
+}
+
+.tituloDestacado button span{
+	margin-left:5px;
+}
+
+.productos ul li figure{
+	overflow:hidden;
+}
+
+.productos ul li a img:hover{
+	transition: .3s all ease;
+	opacity:.8;
+	transform: scale(1.1,1.1);
+}
+
+.productos ul li h4 small{
+	color:#777;
+	text-transform: uppercase;
+	font-size:12px;
+	font-weight: 700;
+}
+
+.productos ul li h4 small a{
+	color:#777;
+}
+
+.productos ul li div.precio{
+	padding:0;
+	margin-top:-30px;
+	padding-bottom:20px;
+}
+
+.productos ul li div.enlaces{
+	padding:0;
+	padding-bottom:20px;
+}
+
+.productos ul li div.enlaces button{
+	margin:2px;
+}
+
+.productos ul li div.enlaces button i{
+	font-size:14px;
+}
+
+/*=============================================
+VITRINA PRODUCTOS LISTA
+=============================================*/
+
+.productos ul li h1{
+	margin-top:-10px;
+}
+
+.productos ul li h1 small{
+	text-transform: uppercase;
+	font-size:20px;
+	font-weight: 700;
+}
+
+.productos ul li h1 small a{
+	color:#777;
+}
+
+.oferta{
+	 text-decoration:line-through;
+	 color:#ccc;
+	 font-size:15px;
+}
+
+.fontSize{
+	font-size:11px;
+}
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+	.banner{
+		height:280px;
+	}
+
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	.banner{
+		height:260px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+	.banner{
+		height:180px;
+	}
+
+	.textoBanner h1{
+		font-size:30px;
+		line-height:15px;
+	}
+
+	.textoBanner h2{
+		font-size:25px;
+		line-height:15px;
+	}
+
+	.textoBanner h3{
+		font-size:25px;
+		line-height:15px;
+	}
+
+	.banner .textoDer, .banner .textoIzq, .banner .textoCentro{
+		top:35px; 
+	}
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+	.banner{
+		height:100px;
+	}
+
+	.banner .textoDer, .banner .textoCentro, .banner .textoIzq{
+		top:7px; 
+		left:50%;
+		width:800px; 
+		margin-left: -400px;
+		text-align:center;
+		text-shadow:2px 2px 20px black;
+	}
+
+	.textoBanner h1{
+		font-size:20px;
+		line-height:5px;
+	}
+
+	.textoBanner h2{
+		font-size:20px;
+		line-height:5px;
+	}
+
+	.textoBanner h3{
+		font-size:15px;
+		line-height:5px;
+	}
+
+	.tituloDestacado h1{
+		text-align:center;
+	}
+
+	.tituloDestacado button{
+		position: absolute;
+		left:50%;
+		width:40%;
+		margin-left:-20%;
+
+	}
+
+	.productos ul li h1 small{
+		font-size:16px;
+	}
+
+	
+}
+
